@@ -1,0 +1,25 @@
+{% macro cardexperience(data) %}
+<div class="col-12 col-lg-8">
+    <div class="card-experience">
+        <div class="logo-experience">
+            <img src="{{ data.src }}" alt="" />
+        </div>
+        <div class="position-experience">
+            <h4>{{ data.title }}</h4>
+            <div class="details-experience">
+                <ul>
+                    <li>{{ data.experience }}</li>
+                    <li>{{ data.experienceTwo }}</li>
+                    <li>{{ data.experienceThree }}</li>
+                    {% if data.experienceFour %}
+                        <li>{{ data.experienceFour }}</li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+        <div class="date-experience">
+            <span>{{ data.date }}</span>
+        </div>
+    </div>
+</div>
+{% endmacro %}
