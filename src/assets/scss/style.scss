@@ -755,6 +755,9 @@
         .wrapper-skills {
             .col-main {
                 flex: 0 0 33.3%;
+                img {
+                    filter: grayscale(0);
+                }
             }
         }
     }
