@@ -724,6 +724,7 @@
                 justify-content: center;
                 align-items: center;
                 margin: 0 0 64px 0;
+                padding: 0 16px;
                 .main-pic {
                     img {
                         padding: 0 20px 0px;
@@ -824,7 +825,6 @@
     .navbar-main {
         h1 {
             margin-left: 16px;
-
         }
         .navbar-toggler:focus {
             box-shadow: unset;
@@ -832,11 +832,11 @@
         .navbar-nav {
             border: 0;
             margin: 16px 0 0;
-            border-bottom: 1px solid  #F3F4F6;
-            border-top: 1px solid  #F3F4F6;
+            border-bottom: 1px solid #f3f4f6;
+            border-top: 1px solid #f3f4f6;
             padding: 16px;
 
-            .nav-item  {
+            .nav-item {
                 margin: 0 0 16px 0;
                 &:nth-child(4) {
                     margin: 0;
@@ -852,11 +852,16 @@
                 }
             }
             .btn-download {
-                margin-right: 0;    
+                margin-right: 0;
                 padding: 6px 92px;
                 border-radius: 12px;
                 width: 100%;
             }
         }
+    }
+}
+@media screen and (max-width: 320px) {
+    .footer-main .wrapper-footer .contact-us .email {
+        gap: 5px;
     }
 }
