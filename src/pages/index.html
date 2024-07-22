@@ -1,10 +1,10 @@
-{% import "component/skills.html" as cards %} {% extends "layout.html" %} {% set
-title = 'Home' %} {% block content %}
+{% import "component/skills.html" as cards %} {% extends "layout.html" %} 
+{% set title = 'Home' %} {% block content %}
 <section class="header" id="header">
-    <div class="container p-0">
+    <div class="container">
         <div class="wrapper-main">
             <div class="row">
-                <div class="col-12 col-lg-8 p-0 order-1 order-lg-0">
+                <div class="col-12 col-lg-8 order-1 order-lg-0">
                     <div class="wrapper-head">
                         <h2>Hi, I’m Mohamed 👋</h2>
                         <p>
@@ -18,11 +18,11 @@ title = 'Home' %} {% block content %}
                         </p>
                         <div class="info-person">
                             <div class="location d-flex align-items-center">
-                                <i class="fa-solid fa-location-dot"></i>
+                                <img src="../assets/images/Icon-loction.svg" alt="" srcset="">
                                 <span class="name-main">Ahmedabad, India</span>
                             </div>
                             <div class="new-project d-flex align-items-center">
-                                <div class="circle-main"></div>
+                                <div class=""><img src="../assets/images/Icon-dot.svg" alt="" srcset=""></div>
                                 <span class="available"
                                     >Available for new projects</span
                                 >
@@ -31,23 +31,22 @@ title = 'Home' %} {% block content %}
                         <div class="icon-social d-flex">
                             <div class="box">
                                 <a href=""
-                                    ><i class="fa-brands fa-github"></i
-                                ></a>
+                                    ><img src="assets/images/github.svg" alt="" srcset=""></a>
                             </div>
                             <div class="box">
                                 <a href="">
-                                    <i class="fa-brands fa-twitter"></i>
+                                    <img src="assets/images/twitter.svg" alt="">
                                 </a>
                             </div>
                             <div class="box">
                                 <a href="">
-                                    <i class="fa-brands fa-figma"></i>
+                                    <img src="../assets/images/figmaa.svg" alt="" srcset="">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-4 p-0">
+                <div class="col-12 col-lg-4">
                     <div class="wrapper-pic">
                         <div class="pic-main">
                             <img
@@ -56,7 +55,7 @@ title = 'Home' %} {% block content %}
                                 alt=""
                                 srcset=""
                             />
-                            <div class="wrapper-gray"></div>
+                            <!-- <div class="wrapper-gray"></div> -->
                         </div>
                     </div>
                 </div>
@@ -66,15 +65,15 @@ title = 'Home' %} {% block content %}
 </section>
 
 <section class="about-me" id="about">
-    <div class="container p-0">
+    <div class="container">
         <div class="text-center about-main">
             <h2>About me</h2>
         </div>
     </div>
-    <div class="container p-0">
+    <div class="container">
         <div class="wrapper-row">
             <div class="row">
-                <div class="col-12 col-lg-5 p-0">
+                <div class="col-12 col-lg-5">
                     <div class="wrapper-about">
                         <div class="main-pic">
                             <img
@@ -89,7 +88,7 @@ title = 'Home' %} {% block content %}
                 </div>
                 <div class="col-12 col-lg-6 offset-lg-1">
                     <div class="wrapper-about-me">
-                        <h2>Curious about me? Here you have it:</h2>
+                        <h3>Curious about me? Here you have it:</h3>
                         <p class="spacing-p">
                             I'm a passionate,
                             <span class="text-decoration-underline"
@@ -158,7 +157,7 @@ title = 'Home' %} {% block content %}
 </section>
 
 <section class="skills">
-    <div class="container p-0">
+    <div class="container">
         <div class="text-center main-skill">
             <h2>Skills</h2>
             <p class="main-p-skill">
@@ -166,7 +165,7 @@ title = 'Home' %} {% block content %}
             </p>
         </div>
     </div>
-    <div class="container p-0">
+    <div class="container">
         <div class="wrapper-skills">
             <div class="row justify-content-around gx-0">
                 {% for item in dataEn.allSkills.skills %} {{ cards.card(item) }}
@@ -297,7 +296,7 @@ title = 'Home' %} {% block content %}
                 <div class="col-12 col-lg-6">
                     <div class="details-project">
                         <div class="project-title">
-                            <h4>Fiskil</h4>
+                            <h3>Fiskil</h3>
                         </div>
                         <div class="project-details">
                             <p>
@@ -323,7 +322,7 @@ title = 'Home' %} {% block content %}
                         <div class="icon-button">
                             <a href="#"
                                 ><img
-                                    src="assets/images/Icon Button.svg"
+                                    src="assets/images/icon-button.svg"
                                     alt=""
                                     srcset=""
                             /></a>
@@ -342,7 +341,7 @@ title = 'Home' %} {% block content %}
                 <div class="col-12 col-lg-6">
                     <div class="details-project">
                         <div class="project-title">
-                            <h4>Fiskil</h4>
+                            <h3>Fiskil</h3>
                         </div>
                         <div class="project-details">
                             <p>
@@ -368,7 +367,7 @@ title = 'Home' %} {% block content %}
                         <div class="icon-button">
                             <a href="#"
                                 ><img
-                                    src="assets/images/Icon Button.svg"
+                                    src="assets/images/icon-button.svg"
                                     alt=""
                                     srcset=""
                             /></a>
@@ -387,7 +386,7 @@ title = 'Home' %} {% block content %}
                 <div class="col-12 col-lg-6 order-lg-3">
                     <div class="details-project mb-0">
                         <div class="project-title">
-                            <h4>Fiskil</h4>
+                            <h3>Fiskil</h3>
                         </div>
                         <div class="project-details ">
                             <p>
@@ -413,7 +412,7 @@ title = 'Home' %} {% block content %}
                         <div class="icon-button">
                             <a href="#"
                                 ><img
-                                    src="assets/images/Icon Button.svg"
+                                    src="assets/images/icon-button.svg"
                                     alt=""
                                     srcset=""
                             /></a>
