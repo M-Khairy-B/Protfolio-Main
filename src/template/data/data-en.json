@@ -1,0 +1,75 @@
+{
+  "dataEn": {
+    "title": "This data from data-en.json file",
+    "allSkills":{
+			"skills" :[
+				{
+					"src": "assets/images/icon-javscript.svg",
+					"title": "Javascript"
+				},
+				{
+					"src": "assets/images/icon-typescript.svg",
+					"title": "Typescript"
+				},
+				{
+					"src": "assets/images/icon-react.svg",
+					"title": "React"
+				},
+				{
+					"src": "assets/images/icon-nextjs.svg",
+					"title": "Next.js"
+				},
+				{
+					"src": "assets/images/icon-nodejs.svg",
+					"title": "Node.js"
+				},
+				{
+					"src": "assets/images/icon-express.svg",
+					"title": "Express.js"
+				},
+				{
+					"src": "assets/images/icon-nest.svg",
+					"title": "Nest.js"
+				},
+				{
+					"src": "assets/images/icon-socket.svg",
+					"title": "Socket.io"
+				}
+			],
+      "Skill2": [
+        {
+					"src": "assets/images/icon-postgresql.svg",
+					"title": "PostgreSQL"
+				},
+        {
+					"src": "assets/images/icon-mongodb.svg",
+					"title": "MongoDB"
+				},
+        {
+					"src": "assets/images/icon-sass.svg",
+					"title": "Sass/Scss"
+				},
+        {
+					"src": "assets/images/icon-tailwindcss.svg",
+					"title": "Tailwindcss"
+				},
+        {
+					"src": "assets/images/icon-figma.svg",
+					"title": "Figma"
+				},
+        {
+					"src": "assets/images/icon-cypress.svg",
+					"title": "Cypress"
+				},
+        {
+					"src": "assets/images/icon-storybook.svg",
+					"title": "Storybook"
+				},
+        {
+					"src": "assets/images/icon-git.svg",
+					"title": "Git"
+				}
+      ]
+		}
+  }
+}

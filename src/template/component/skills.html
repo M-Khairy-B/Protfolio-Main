@@ -1,0 +1,9 @@
+{% macro card(data={}) %}
+
+<div class="col-main">
+    <div class="wrapper-icon-skills d-flex flex-column align-items-center">
+        <img src="{{data.src}}" alt="" />
+        <span>{{data.title}}</span>
+    </div>
+</div>
+{% endmacro %}
