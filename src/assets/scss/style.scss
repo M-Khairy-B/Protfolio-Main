@@ -726,7 +726,7 @@
             justify-content: center;
             margin: 0 0 86px 0;
             .pic-main {
-                .wrapper-gray {
+                &::after {
                     left: 20px;
                     top: 20px;
                 }
@@ -734,7 +734,7 @@
         }
         .wrapper-head {
             h2 {
-                font-family: Inter;
+                font-family: "Inter";
                 font-size: 36px;
                 font-weight: 600;
                 line-height: 40px;
@@ -752,10 +752,10 @@
                 padding: 0 16px;
                 .main-pic {
                     img {
-                        padding: 0 20px 0px;
+                        padding: 0;
                     }
-                    .wrapper-gray {
-                        right: 0px;
+                    &::after{
+                        left: 20px;
                         top: 20px;
                     }
                 }
@@ -873,7 +873,7 @@
         }
         .btn-main {
             padding: 16px;
-            margin: 0gi;
+            margin: 0;
             .switch-theme {
                 margin-bottom: 16px;
                 padding: 6px 0 span {
